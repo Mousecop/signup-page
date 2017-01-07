@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup Page</title>
+	<meta charset="utf-8" name="description" content="Signup Page for Thinkful challenge">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="logo">
+		<img src="logo.png" alt="logo goes here">
+	</div>
+	<div class="form-box">
+		<header>
+			<h1>Sign Up</h1>
+		</header>
+		<form action="/signup/" method="post" class="form-field">
+			<label for="email">Email</label>
+			<input type="email" name="email" placeholder="example@email.com" id="email" required="">
+
+			<label for="password">Password</label>
+			<input type="password" name="password" placeholder="123password" id="password" required="">
+
+			<button type="submit">Sign Up</button>
+		</form>
+		<div class="pass-link">
+			<a href="/forgot-password/new">Forgot Password?</a>
+		</div>
+	</div>
+	<div class="existing-account">
+		<p>Already have an account? <a href="/login">Log In</a></p>
+	</div>
+</body>
+</html>

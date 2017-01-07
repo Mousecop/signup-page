@@ -1,0 +1,112 @@
+body {
+	background-color: #0089ff;
+}
+
+.form-box {
+	margin-right: auto;
+	margin-left: auto;
+	width: 360px;
+	height: auto;
+	background-color: white;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+.form-box input {
+	width: 320px;
+	height: 31px;
+	padding: 15px;
+	border: 2px solid lightgrey;
+	border-radius: 4px;
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.form-box button {
+	width: 354px;
+	height: 51px;
+	padding: 15px;
+	border: 2px solid lightgrey;
+	border-radius: 4px;
+	display: block;
+	font-size: 20px;
+	background-color: #51e056;
+	color: #fff;
+	margin-bottom: 25px;
+	cursor: pointer;
+}
+
+
+.form-box input::-webkit-input-placeholder {
+	font-size: 20px;
+}
+
+.form-box label {
+	margin-bottom: 8px;
+
+}
+
+.form-box header {
+	text-align: center;
+}
+.logo {
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+img {
+	height: 35px;
+}
+
+.pass-link {
+	text-align: center;
+	font-size: 13px;
+	color: lightgrey;
+}
+
+.existing-account {
+	text-align: center;
+	color: white;
+}
+
+.existing-account a:link {
+	color: white;
+}
+
+.form-box a:link {
+	color: lightgrey;
+}
+
+button:hover {
+	background-color: #55a558;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
