@@ -2,31 +2,34 @@ body {
 	background-color: #0089ff;
 }
 
+body * {
+	box-sizing: border-box;
+}
+
 .form-box {
 	margin-right: auto;
 	margin-left: auto;
-	width: 360px;
-	height: auto;
+	width: 400px;
 	background-color: white;
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding: 40px;
 
 }
 
-.form-box input {
-	width: 320px;
-	height: 31px;
+input[type="email"], input[type="password"], button[type="submit"]  {
+	width: 100%;
+	height: auto;
 	padding: 15px;
 	border: 2px solid lightgrey;
 	border-radius: 4px;
 	display: block;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin: 20px auto;
 }
 
-.form-box button {
+.submit-button {
+	background-color: #51e056;
+}
+
+/*{
 	width: 354px;
 	height: 51px;
 	padding: 15px;
@@ -39,20 +42,25 @@ body {
 	margin-bottom: 25px;
 	cursor: pointer;
 }
+*/
 
-
-.form-box input::-webkit-input-placeholder {
+.form-field input::-webkit-input-placeholder {
 	font-size: 20px;
 }
 
-.form-box label {
+.form-field label {
 	margin-bottom: 8px;
 
 }
 
-.form-box header {
+.form-field legend {
 	text-align: center;
+	font-weight: 300;
+	font-size: 35px;
+	margin: 0 auto 45px;
+	line-height: 38px;
 }
+
 .logo {
 	text-align: center;
 	margin-top: 25px;
